@@ -46,7 +46,7 @@ FROM (
     GROUP BY a.au_id, a.au_lname, a.au_fname, p.pub_name
 ) as subquery;
 
--- Challenge 3
+-- Challenges 3
 SELECT 
     a.au_id AS 'AUTHOR ID',
     a.au_lname AS 'LAST NAME',
